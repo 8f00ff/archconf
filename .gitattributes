@@ -1,0 +1,12 @@
+[attr]txt      text eol=lf
+
+*              text=auto
+
+.gitattributes txt export-ignore
+.gitignore     txt export-ignore
+.gitkeep       txt export-ignore
+
+*.env          txt
+*.md           txt diff=markdown
+*.sh           txt diff=bash
+*.template     txt
